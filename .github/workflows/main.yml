@@ -55,5 +55,5 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: skim_ggh
+          name: skim_ggH
           path: skim_ggH.root
