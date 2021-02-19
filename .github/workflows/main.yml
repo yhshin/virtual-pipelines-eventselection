@@ -8,7 +8,7 @@ jobs:
 
   build_skim:
     runs-on: ubuntu-latest
-    container: rootproject/root-conda:{{ matrix.version }}
+    container: rootproject/root-conda:${{ matrix.version }}
     strategy:
       matrix:
         version: [6.18.04, latest]
